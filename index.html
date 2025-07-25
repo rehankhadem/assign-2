@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flower Website</title>
-  <!-- tailwind Connect -->
+
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <!-- CSS Connect -->
-  <link rel="stylesheet" href="../styles/tailwind.css">
-  <link rel="stylesheet" href="../styles/styles.css">
-  <!-- Font Awesome Connect -->
+
+  <link rel="stylesheet" href="styles/tailwind.css">
+  <link rel="stylesheet" href="styles/styles.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,15 +27,15 @@
           <li class="nav-t-c"><a href="">Shop</a></li>
           <li class="nav-t-c"><a href="">About Us</a></li>
         </ul>
-        <button class=""><i class="fa-solid fa-cart-shopping"></i> cart ($56)</button>
+        <button class=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</button>
       </div>
     </nav>
     <!-- Banner -->
     <section class="banner-section flex justify-between items-end ">
       <div class="">
         <h1 class="font-noto font-bold text-6xl
-        ">ALWAYS <span class=" orange">FRESH</span></h1>
-        <h1 class="font-noto font-bold text-6xl orange">FLOWERS</h1>
+        ">ALWAYS <span class=" text-[orange]">FRESH</span></h1>
+        <h1 class="font-noto font-bold text-6xl text-[orange]">FLOWERS</h1>
         <p class="text-lg text-black/50">Indulge your senses with the beauty and fragrance of our fresh flower shop.
           From classic
           roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
@@ -46,15 +46,15 @@
   <main>
     <!-- Plants Section -->
     <section class="container text-center">
-      <h2 class="font-noto font-bold text-5xl mt-32 mb-4 p-sec-titile"><span class="orange">Our</span> Plants</h2>
+      <h2 class="font-noto font-bold text-5xl mt-32 mb-4 p-sec-titile"><span class="text-[orange]">Our</span> Plants
+      </h2>
       <p class="text-black/50 text-lg mb-12 p-section">Indulge your senses with the beauty and fragrance of our fresh
         flower shop.
         From classic roses to
         exotic blooms, we
         offer a wide variety of fresh.</p>
-      <!-- Card Container -->
+      <!-- Card  -->
       <div class="card-section place-items-center grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-7">
-        <!-- Card -->
         <div class="card max-w-[270px]">
           <img src="../assets/sample-flower-image.png" alt="Flower Picture">
           <p class="font-medium text-[22px] mt-5">Lily Blossom</p>
@@ -109,7 +109,7 @@
     <section class="container">
       <div class="relative flex love-section justify-between gap-14.5 mt-52 mb-36">
         <img class="w-full" src="../assets/flower-store.png" alt="Flower Picture">
-        <img class="hidden md:block lg:absolute lg:left-[29%] lg:top-[-21%]" src="./assets/trusted-badge.png" alt="">
+        <img class="hidden md:block lg:absolute lg:left-[29%] lg:top-[-21%]" src="../assets/trusted-badge.png" alt="">
         <div class="">
           <h2 class="text-5xl font-bold font-noto mb-7">Flower & Plants Lover</h2>
           <ul class="text-[22px] text-black/50 list-disc pl-10">
@@ -158,7 +158,6 @@
     <!-- Join Section -->
     <section class=" bg-[url(../assets/news-letter-bg.png)] bg-no-repeat bg-center w-full h-[533px] mx-auto">
       <div class="container mx-auto">
-        <h2 class="font-noto font-bold text-white text-5xl text-center pt-[15%] mb-6">Join the colorful Bunch</h2>
         <h2 class="join-h2 font-noto font-bold text-white text-5xl text-center pt-[15%] mb-6">Join the colorful Bunch
         </h2>
         <div class="join-flex flex justify-center w-[830px] mx-auto">
@@ -168,4 +167,36 @@
       </div>
     </section>
   </main>
+  <footer class="bg-white/50 border-black/50">
+    <div class="max-w-[70rem] footer-section flex justify-between py-12 mx-auto">
+      <div class="">
+        <img src="../assets/logo.png" alt="Logo Picture" class="mb-4">
+        <p class="text-black/50 w-[350px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+        </p>
+      </div>
+      <ul>
+        <li class="text-gray-500 mb-8"><a href="">Home</a></li>
+        <li class="text-gray-500 mb-8"><a href="">About Us</a></li>
+        <li class="text-gray-500 mb-8"><a href="">Blog</a></li>
+        <li class="text-gray-500 mb-8"><a href="">FAQ</a></li>
+        <li class="text-gray-500 mb-8"><a href="">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li class="text-gray-500 mb-8"><a href="">Features</a></li>
+        <li class="text-gray-500 mb-8"><a href="">Pricing</a></li>
+        <li class="text-gray-500 mb-8"><a href="">Privacy Policy</a></li>
+        <li class="text-gray-500 mb-8"><a href="">trams of Service</a></li>
+        <li class="text-gray-500 mb-8"><a href="">Help Center</a></li>
+      </ul>
+      <div class="flex gap-6">
+        <img class="w-9 h-9" src="../assets/icon-linkedin.png" alt="Linkedin">
+        <img class="w-9 h-9" src="../assets/icon-twitter.png" alt="Twitter">
+        <img class="w-9 h-9" src="../assets/icon-facebook.png" alt="Facebook">
+        <img class="w-9 h-9" src="../assets/icon-youtube.png" alt="Youtube">
+      </div>
+    </div>
+
+  </footer>
 </body>
+
+</html>
