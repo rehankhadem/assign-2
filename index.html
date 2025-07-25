@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flower Website</title>
-
+  <!-- tailwind Connect -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-  <link rel="stylesheet" href="./styles/tailwind.css">
-  <link rel="stylesheet" href="./styles/style.css">
-
+  <!-- CSS Connect -->
+  <link rel="stylesheet" href="../styles/tailwind.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <!-- Font Awesome Connect -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -40,7 +40,7 @@
           From classic
           roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
       </div>
-      <img src="./assets/hero-flower.png" alt="Banner Flower">
+      <img src="../assets/hero-flower.png" alt="Banner Flower">
     </section>
   </header>
   <main>
@@ -52,9 +52,9 @@
         From classic roses to
         exotic blooms, we
         offer a wide variety of fresh.</p>
-      <!-- Card -->
+      <!-- Card Container -->
       <div class="card-section place-items-center grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-7">
-
+        <!-- Card -->
         <div class="card max-w-[270px]">
           <img src="../assets/sample-flower-image.png" alt="Flower Picture">
           <p class="font-medium text-[22px] mt-5">Lily Blossom</p>
@@ -109,7 +109,7 @@
     <section class="container">
       <div class="relative flex love-section justify-between gap-14.5 mt-52 mb-36">
         <img class="w-full" src="../assets/flower-store.png" alt="Flower Picture">
-        <img class="hidden md:block lg:absolute lg:left-[29%] lg:top-[-21%]" src="../assets/trusted-badge.png" alt="">
+        <img class="hidden md:block lg:absolute lg:left-[29%] lg:top-[-21%]" src="./assets/trusted-badge.png" alt="">
         <div class="">
           <h2 class="text-5xl font-bold font-noto mb-7">Flower & Plants Lover</h2>
           <ul class="text-[22px] text-black/50 list-disc pl-10">
@@ -126,6 +126,44 @@
               blooms, we
               offer a wide variety of fresh.</li>
           </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Latest  Deals -->
+    <section class="container">
+      <h2 class="deals-h2 font-noto font-bold text-5xl text-center"><span class="orange">Latest</span> Deals</h2>
+      <p class="deals-p text-[22px] text-black/50 text-center w-[75%] mx-auto mt-4 mb-28">Indulge your senses with the
+        beauty
+        and fragrance of our fresh flower shop. From classic
+        roses to exotic blooms, we offer a wide variety of fresh.</p>
+      <div class="deals mb-32 text-white grid grid-cols-[1fr_2fr] gap-x-[28px] gap-y-[25px]">
+        <div
+          class="heigh grid place-content-center bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./assets/deal-bloom.png)] rounded-lg bg-cover bg-center py-16">
+          <h3 class="font-noto text-[20px]">60% Off | Bloom Plant</h3>
+          <button class="font-semibold underline">Shop Now</button>
+        </div>
+        <div
+          class="heigh row-span-2 grid place-content-center bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./assets/deal-zabo.png)] bg-cover bg-no-repeat rounded-lg">
+          <h3 class="font-noto font-bold text-4xl">25% Off | Zabo Plant</h3>
+          <button class="font-semibold underline">Shop Now</button>
+        </div>
+        <div
+          class="heigh grid place-content-center bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./assets/deal-ana.png)] rounded-lg bg-cover bg-center py-16">
+          <h3 class="font-noto text-[20px]">30% Off | Ana Plant</h3>
+          <button class="font-semibold underline">Shop Now</button>
+        </div>
+
+      </div>
+    </section>
+    <!-- Join Section -->
+    <section class=" bg-[url(../assets/news-letter-bg.png)] bg-no-repeat bg-center w-full h-[533px] mx-auto">
+      <div class="container mx-auto">
+        <h2 class="font-noto font-bold text-white text-5xl text-center pt-[15%] mb-6">Join the colorful Bunch</h2>
+        <h2 class="join-h2 font-noto font-bold text-white text-5xl text-center pt-[15%] mb-6">Join the colorful Bunch
+        </h2>
+        <div class="join-flex flex justify-center w-[830px] mx-auto">
+          <input class="bg-white w-full h-12 pl-2.5" type="email" placeholder="Write email">
+          <button class="text-white h-12 px-12 font-semibold bg-[orange] ">Subscribe</button>
         </div>
       </div>
     </section>

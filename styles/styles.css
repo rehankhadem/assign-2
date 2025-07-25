@@ -12,7 +12,6 @@
       margin-top: 35px;
       h1 {
         font-size: 2rem;
-        line-height: 2rem;
       }
       p {
         margin-top: 30px;
@@ -21,7 +20,7 @@
   }
   /* Plants Section */
   .p-sec-titile {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .p-section {
     margin: 0 2rem;
@@ -38,10 +37,48 @@
     margin: 45px 20px 140px;
     h2 {
       font-size: 1.5rem;
+      margin-bottom: 10px;
     }
     ul {
-      font-size: 14px;
+      font-size: 18px;
       padding-left: 20px;
+    }
+  }
+  /* Latest  Deals */
+  .deals {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .deals-h2 {
+    font-size: 1.5rem;
+  }
+  .deals-p {
+    font-size: 18px;
+  }
+  .deals h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .heigh {
+    height: 100%;
+    padding: 60px;
+  }
+  /* Join Section */
+  .join-h2 {
+    padding-top: 50%;
+    font-size: 1.5rem;
+  }
+  .join-flex {
+    margin: auto;
+    width: 80%;
+    button {
+      width: 30%;
+      width: 40%;
+      padding: 0 12px;
     }
   }
 }
