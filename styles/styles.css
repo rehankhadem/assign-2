@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+  /* header Section */
   .nav-section {
     justify-content: space-between;
     margin: 28px 16px;
@@ -16,6 +17,31 @@
       p {
         margin-top: 30px;
       }
+    }
+  }
+  /* Plants Section */
+  .p-sec-titile {
+    font-size: 2rem;
+  }
+  .p-section {
+    margin: 0 2rem;
+  }
+  .card-section {
+    margin: 0 15px;
+    .card {
+      max-width: 271px;
+    }
+  }
+  /* Plants Lover Section */
+  .love-section {
+    flex-direction: column;
+    margin: 45px 20px 140px;
+    h2 {
+      font-size: 1.5rem;
+    }
+    ul {
+      font-size: 14px;
+      padding-left: 20px;
     }
   }
 }
